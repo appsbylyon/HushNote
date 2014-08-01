@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.appsbylyon.hushnote.LibraryView" >
+
+    <item
+        android:id="@+id/action_import_notebook"
+        android:showAsAction="never"
+        android:title="@string/action_import_notebook"/>
+    
+    <item
+        android:id="@+id/action_choose_font"
+        android:showAsAction="never"
+        android:title="@string/action_choose_font"/>
+    
+    <item
+        android:id="@+id/action_theme"
+        android:showAsAction="never"
+        android:title="@string/action_theme"/>
+    
+    <item 
+        android:id="@+id/action_about"
+        android:showAsAction="never"
+        android:title="@string/action_about"/>
+    
+    <item 
+        android:id="@+id/action_about_fonts"
+        android:showAsAction="never"
+        android:title="@string/action_about_fonts"/>
+    
+    <item
+        android:id="@+id/action_help"
+        android:showAsAction="never"
+        android:title="@string/action_help"/>
+
+</menu>

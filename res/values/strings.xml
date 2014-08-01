@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">HushNote</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="pref_first_run_key">is_first_run</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="pref_master_key">master_key</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="pref_font_id_key">font_id</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="pref_font_size_key">font_size</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="font_chooser_preview_label">Preview</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="font_chooser_preview_text">The quick brown fox jumps over the lazy dog.</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="font_chooser_ok_button_text">OK</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="font_chooser_cancel_button_text">Cancel</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="action_choose_font">Font Settings</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="font_name_spinner_prompt">Font Name</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="font_size_spinner_prompt">Font Size</string>
+    <string-array android:layout_height="wrap_content" android:id="@+id/stringarray1" android:layout_width="wrap_content" name="font_names">
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">36 Days Ago</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">AA Typewriter</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Enigma Scrawl</item>
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Ammys Handwriting</item>
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Bocuma</item>
+        <item android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/item1">Combustion</item>
+        <item android:id="@+id/item1" android:layout_width="wrap_content" android:layout_height="wrap_content">Galvanize</item>
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Grotesque</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Hannahs Handwriting</item>
+        <item android:id="@+id/item1" android:layout_height="wrap_content" android:layout_width="wrap_content">Mad Scrawl</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Anglican Text</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Canterbury</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Cute Love</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">I Love You, Monkey</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Cyber Caligraphic</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Tumbleweed</item>
+        <item android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/item1">Zenda</item>
+        
+    </string-array>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="library_view_header_label">Notebook Library</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="library_add_notebook_button"/>
+    <color android:layout_height="wrap_content" android:id="@+id/color1" android:layout_width="wrap_content" name="general_text_color">#FFFFFF</color>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="create_notebook_title">Create New Notebook</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="create_notebook_title_prompt">Enter Title:</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="create_notebook_title_hint">TITLE</string>
+    <string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="create_notebook_desc_promt">Enter Description:</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="create_notebook_desc_hint">DESCRIPTION</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="create_notebook_secure_prompt">Secure Notebook</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="create_notebook_password_prompt">Enter Password:</string>
+    <string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="create_note_book_reenter_password">Enter Password Again:</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="create_notebook_cancel_button_text">Cancel</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="create_notebook_ok_button_text">OK</string>
+    <color android:id="@+id/color1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="black_color">#000000</color>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="font_chooser_title_text">Change Font Settings</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="create_notebook_password_hint">ENTER PASSWORD</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="create_notebook_reenter_hint">REENTER PASSWORD</string>
+    <string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="create_notebook_password_mismatch">Passwords Do Not Match</string>
+    <string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="library_view_no_library_text">No Library Found</string>
+    <string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="action_delete_notebook">Delete</string>
+    <string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="action_export_to_sd">Export To SD</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="confirm_dialog_title">title</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="confirm_dialog_message">message</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="confirm_dialog_caller">caller</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="confirm_dialog_ok_button_text">OK</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="confirm_dialog_cancel_text">Cancel</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="enter_password_title_text">Enter Password</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="enter_password_entry_hint">PASSWORD</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="enter_password_cancel_text">Cancel</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="enter_password_confirm">OK</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="enter_password_message_text">message</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="enter_password_caller">caller</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="notebook_view_no_entries_text">No Entries In This Notebook</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="notebook_view_entries_header_text">Notebook Entries</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="open_notebook_name">notebook_name</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="open_notebook_isencrypted">is_encrypted</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="open_notebook_password">password</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="add_entry_cancel_button_text">Cancel</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="add_entry_confirm_button_text">Add</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="add_entry_header_text">Create New Entry</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="add_entry_title_prompt_text">Entry Title:</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="add_entry_title_hint">TITLE</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="add_entry_text_promt_text">Entry Text:</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="add_entry_text_hint">NOTEBOOK ENTRY</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="view_entry_button_text">Done</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="view_entry_selected_entry">selected_entry</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="action_delete_entry">Delete</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="action_edit_entry">Edit</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="add_entry_dialog_mode">mode</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="add_entry_edit_position">position</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="add_entry_edit_entry_title">Edit Entry</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="delete_entry_confirm_title">Delete Entry</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="delete_entry_confirm_message">Are You Sure You Want To Delete This Entry?</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="add_entry_edit_entry_button_text">Edit</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="export_header_text">Export Notebook</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="export_as_notebook_text">Export As Notebook File</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="export_as_textfile_text">Export As Text File</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="export_cancel_button_text">Cancel</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="export_confirm_button_text">Export</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="action_import_notebook">Import Notebook</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="action_about">About HushNote</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="action_help">Help</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="file_choose_result_value">filepath</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="file_chooser_header">Select Notebook To Import...</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="file_chooser_cancel_button_text">Cancel</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="activity_help_general_use_button_text">General Use</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="activity_help_import_export_button_text">Import / Exporting Notebooks</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="activity_help_restriction_button_text">Restrictions</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="help_dialog_done_button_text">Done</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="help_dialog_caller">caller</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="library_on_pause_time">on_pause_time</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="notebook_view_do_not_kill">do_not_kill</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="pref_theme_id">theme_id</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="theme_chooser_header">Select Theme Color</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="theme_chooser_cancel_button_text">Cancel</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="theme_chooser_confirm_button_text">Select</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="action_theme">Choose Theme</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="context_menu_header">Select Action</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="context_menu_to_display">selected_menu</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="create_notebook_mode">mode</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="create_notebook_edit_password">password</string>
+<string android:layout_height="wrap_content" android:id="@+id/string1" android:layout_width="wrap_content" name="create_notebook_edit_position">position</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="action_about_fonts">About Fonts</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="about_fonts_header_text">Click For More Info On...</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="about_fonts_monkey_button_text">I Love You, Monkey</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="about_fonts_other_text">Other Fonts</string>
+<string android:id="@+id/string1" android:layout_height="wrap_content" android:layout_width="wrap_content" name="monkey_created_by_text">Created By...</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="monkey_biz_name_text">Misti\'s Fonts</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="monkey_misti_name">(Misti Hammers)</string>
+<string android:id="@+id/string1" android:layout_width="wrap_content" android:layout_height="wrap_content" name="monkey_visit_web">Visit Her Website At</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="monkey_website">www.mistifonts.com</string>
+<string android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/string1" name="monkey_done_button_text">Done</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="about_logo_description">Application Logo says Hush Note</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="about_icon_description">application icon is a blue notebook</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="about_brought_desc">silver letters that say brought to you by</string>
+<string android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/string1" name="about_app_desc">blue and white letters that say apps by lyon</string>
+<string android:layout_width="wrap_content" android:id="@+id/string1" android:layout_height="wrap_content" name="monkey_logo_desc">misti hammers logo, is a white heart with an m in the middle</string>
+
+
+</resources>

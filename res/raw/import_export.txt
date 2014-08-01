@@ -1,0 +1,5 @@
+Make sure to scroll to the bottom!
+
+To export a notebook long press it on the library screen.  A menu will be displayed.  Select "Export Notebook".  If the notebook is secured you will be required to enter your password to continue.  You will then be prompted to select "Export As Text file" or "Export As Notebook".  Exporting the notebook as a text file will produce a human readable .txt file.  Be aware that if your notebook is secured the resulting file will not be protected and will be readable by people and other applications once exported.  Exporting as a notebook (.nbk) file will allow you to transfer your notebook to another device.  Be aware that if your notebook is encrypted the resulting file will also be encrypted and will require your password to import it.
+
+To import a notebook select "Import Notebook" from the menu on the library screen.  Use the file chooser to navigate to the .nbk file that you wish to import.  Be aware that if the .nbk file you are trying to import was exported from an encrypted notebook it will require the password to import into your library.

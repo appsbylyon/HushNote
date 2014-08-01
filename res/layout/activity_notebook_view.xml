@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_notebook_view_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/notebook_view_title_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/notebook_view_desc_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="TextView"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/notebook_view_date_created"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="TextView"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/notebook_view_date_modified"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="TextView"
+        android:textColor="@color/general_text_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/notebook_view_entries_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:text="@string/notebook_view_entries_header_text"
+            android:textColor="@color/general_text_color" />
+
+        <Button
+            android:id="@+id/notebook_view_add_entry_button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="5dp"/>
+
+    </RelativeLayout>
+	<RelativeLayout
+	    android:id="@+id/activity_notebook_view_list_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+	    <ListView
+	        android:id="@+id/notebook_view_entry_listview"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	    </ListView>
+	    <TextView
+	        android:id="@+id/notebook_view_no_entries_label"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerHorizontal="true"
+	        android:layout_centerVertical="true"
+	        android:text="@string/notebook_view_no_entries_text"
+            android:textColor="@color/general_text_color" />
+	</RelativeLayout>
+</LinearLayout>

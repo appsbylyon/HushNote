@@ -1,0 +1,22 @@
+Make sure to scroll to the bottom!
+
+HushNote is a simple notebook application that will allow you to keep track of several different notebooks.
+
+The main screen of the application is your library.  It will display all notebooks that have been created.  When a notebook is selected it will open it.  If a password has been set you will need to enter it to view the entries.
+
+To create a notebook simply press the "+" icon at the top right of the screen and enter a Title, description and password if desired.
+
+Notebooks may be long pressed.  A menu will be displayed that will allow you to either delete or export a notebook.
+
+Password Protection
+HushNote allows you to protect your notebooks with a password.  Password protected notebooks are encrypted and will only be decrypted when the correct password has been entered.
+
+After opening a notebook you will see a screen with your notebook title, description, date created and date modified.  A list will be displayed with all entries in the notebook.  To add an entry simply click the "+" button in the top right corner.  Enter a title and the text of your entry.
+
+Entries may be long pressed.  A menu will be displayed that will allow you to edit or delete an entry.
+
+Be aware that while a secured notebook is open a password will not be needed to delete entries.
+
+If your notebook is secured and left open and another app is opened the notebook will be automatically closed after 5 seconds.  This is a security precaution that prevents others from opening HushNote after your password has been entered.
+
+That's all there is to using HushNote.

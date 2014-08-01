@@ -1,0 +1,3 @@
+Be sure to scroll to the bottom!
+
+The only restrictions to be aware of are limits on the lengths of notebook titles, descriptions and passwords.  Titles are limited to 16 characters, descriptions to 48 characters and passwords to 16 characters.  Also, be aware that passwords may NOT contain spaces.

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/create_notebook_fragment"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    
+
+    
+    
+<LinearLayout 
+    android:id="@+id/create_notebook_sub_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/create_notebook_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/create_notebook_title"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/create_notebook_title_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/create_notebook_title_prompt"
+        android:textColor="@color/general_text_color" />
+
+    <EditText
+        android:id="@+id/create_notebook_title_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/create_notebook_title_hint"
+        android:singleLine="true"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/create_notebook_desc_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/create_notebook_desc_promt"
+        android:textColor="@color/general_text_color" />
+
+    <EditText
+        android:id="@+id/create_notebook_desc_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/create_notebook_desc_hint"
+        android:singleLine="true"
+        android:textColor="@color/general_text_color" />
+
+    <CheckBox
+        android:id="@+id/create_notebook_secure_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/create_notebook_secure_prompt"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/create_notebook_password_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/create_notebook_password_prompt"
+        android:textColor="@color/general_text_color" />
+
+    <EditText
+        android:id="@+id/create_notebook_password_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/create_notebook_password_hint"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/create_notebook_repassword_prompt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:text="@string/create_note_book_reenter_password"
+        android:textColor="@color/general_text_color" />
+
+    <EditText
+        android:id="@+id/create_notebook_repassword_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:ems="10"
+        android:hint="@string/create_notebook_reenter_hint"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textColor="@color/general_text_color" />
+
+    <TextView
+        android:id="@+id/create_notebook_password_readback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/create_notebook_password_mismatch"
+        android:textColor="@color/general_text_color" />
+
+    <LinearLayout
+        android:id="@+id/create_notebook_button_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/create_notebook_cancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/create_notebook_cancel_button_text"
+            android:textColor="@color/black_color" />
+
+        <Button
+            android:id="@+id/create_notebook_ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_weight="1"
+            android:text="@string/create_notebook_ok_button_text"
+            android:textColor="@color/black_color" />
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
